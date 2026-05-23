@@ -1,4 +1,13 @@
-# Operating system files
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.env
+
+# OS files
 .DS_Store
 Thumbs.db
 desktop.ini
@@ -8,17 +17,6 @@ desktop.ini
 .idea/
 *.swp
 *.swo
-
-# Python
-__pycache__/
-*.py[cod]
-.venv/
-venv/
-env/
-.env
-
-# Jupyter
-.ipynb_checkpoints/
 
 # Node
 node_modules/
@@ -31,15 +29,38 @@ build/
 dist/
 out/
 outputs/
-results/raw/
 
-# Large or sensitive project data
-data/raw/
+# Large simulation files - uncomment if needed
+# *.fsp
+# *.ldev
+# *.ldf
+# *.mat
+
+# Lumerical temporary/autosave files
+*.log
+*.bak
+*.tmp
+
+# Exported large data
+data/raw/*
+lumerical/exported_data/*
+
+# Keep folder structure
+!data/raw/.gitkeep
+!lumerical/exported_data/.gitkeep
+
+# Sensitive project data
 data/private/
 data/confidential/
 
-# Temporary files
-*.tmp
-*.temp
-~$*
+# Report build files
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.synctex.gz
 
+# Word temporary files
+~$*.docx
