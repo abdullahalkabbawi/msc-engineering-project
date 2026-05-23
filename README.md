@@ -24,6 +24,14 @@ The final output will combine a technical report, poster presentation, and a doc
 - Electromagnetic or photonic simulation using Ansys Lumerical
 - Device modelling, parameter studies, and performance evaluation
 
+## Research Context
+
+This project is connected to the research themes described by UltraQuTe:
+
+- Website: https://ultraqute.com/
+
+Further notes on research background, useful papers, and project-specific context will be collected in [docs/research-context.md](docs/research-context.md).
+
 ## Repository Structure
 
 ```text

@@ -6,6 +6,8 @@ This MSc project focuses on **terahertz electronics for quantum engineering and 
 
 The project will investigate how terahertz-frequency structures can contribute to emerging communication and quantum technology applications. The expected output is a documented simulation workflow, evaluated results, a final technical report, and a poster presentation.
 
+Project research context will be informed by the UltraQuTe website: https://ultraqute.com/
+
 ## 2. Problem Statement
 
 Terahertz technologies occupy a technically important region between microwave electronics and infrared photonics. This frequency range is increasingly relevant for high-bandwidth 6G communication concepts and for quantum engineering systems that require precise control, sensing, or interaction with electromagnetic fields.
